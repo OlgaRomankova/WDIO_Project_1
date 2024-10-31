@@ -3,17 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlgaRomankova/WDIO_Project_1.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlgaRomankova/WDIO_Project_1/issues"
+  },
+  "homepage": "https://github.com/OlgaRomankova/WDIO_Project_1#readme",
   "description": "",
   "devDependencies": {
     "@wdio/allure-reporter": "^9.2.2",
     "@wdio/cli": "^9.2.6",
     "@wdio/local-runner": "^9.2.6",
     "@wdio/mocha-framework": "^9.2.5",
-    "@wdio/spec-reporter": "^9.2.2"
+    "@wdio/spec-reporter": "^9.2.2",
+    "@wdio/visual-service": "^6.2.1"
   }
 }
