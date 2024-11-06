@@ -1,9 +1,11 @@
+
+const LoginPage = require('../pageobjects/login.page');
 class LoginPage {
   get usernameTextbox() {
     return $('#username');
   }
-    
-  get passwordTextBox() {
+
+  get passwordTextbox() {
     return $('#password');
   }
 
@@ -16,16 +18,17 @@ class LoginPage {
 
   // enterUsername() {  }
   // enterPassword() {  }
-    // clickLogin() {  }
-    
-   async login(username, password) {
-       await this.usernameTextbox.setValue(username)
-       await this.passwordTextBox.setValue(password)
-       await this.loginButton.click()
-    }
+  // clickLogin() {  }
 
-    async checkMessage(msg) {
-        expect(this.loginMessage).toContain(
-            msg);
-    }
+  async login(username, password) {
+    await this.usernameTextbox.setValue(username);
+    await this.passwordTextbox.setValue(password);
+    await this.loginButton.click();
+  }
+
+  async checkMessage(msg) {
+    const actualMessage = await this.loginMessage.getText(); // Получаем текст элемента
+    expect(actualMessage).toContain(msg); // Проверяем текст на содержание
+  }
 }
+module.exports = new LoginPage();
