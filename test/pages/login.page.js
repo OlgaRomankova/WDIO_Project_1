@@ -1,5 +1,4 @@
 
-const LoginPage = require('../pageobjects/login.page');
 class LoginPage {
   get usernameTextbox() {
     return $('#username');
