@@ -1,7 +1,7 @@
 exports.config = {
   runner: 'local',
 
-  specs: ['./test/specs/*spec.js'],
+  specs: ['./test/specs/**/*.js'],
 
   exclude: [],
 
@@ -10,11 +10,14 @@ exports.config = {
   capabilities: [
     {
       browserName: 'chrome', // or "firefox", "microsoftedge", "safari"
+      'goog:chromeOptions': {
+        args: ['--disable-gpu'], // Отключаем использование GPU, иначе тест зацикливается
+      },
     },
 
-    {
-      browserName: 'edge',
-    },
+    // {
+    //   browserName: 'edge',
+    // },
   ],
 
   logLevel: 'info',
