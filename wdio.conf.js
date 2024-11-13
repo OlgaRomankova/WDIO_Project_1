@@ -1,7 +1,8 @@
 exports.config = {
   runner: 'local',
 
-  specs: ['./test/specs/*spec.js'],
+  specs: ['./test/specs/**/*.js'],
+  services: ['devtools'],
 
   exclude: [],
 
@@ -10,11 +11,14 @@ exports.config = {
   capabilities: [
     {
       browserName: 'chrome', // or "firefox", "microsoftedge", "safari"
+      'goog:chromeOptions': {
+        args: ['--disable-gpu'], // Отключаем использование GPU, иначе тест зацикливается
+      },
     },
 
-    {
-      browserName: 'edge',
-    },
+    // {
+    //   browserName: 'edge',
+    // },
   ],
 
   logLevel: 'info',
@@ -33,10 +37,20 @@ exports.config = {
 
   reporters: [
     'spec',
+    // [
+    //   'allure',
+    //   {
+    //     outputDir: 'allure-results',
+    //   },
+    // ],
     [
-      'allure',
+      'junit',
       {
-        outputDir: 'allure-results',
+        outputDir: 'junit-reports',
+        outputFileFormat: function(options){
+          // return `results-${new Date().getTime()}.xml`;
+          return `results-${options.cid}.${options.capabilities}.xml`;
+        },
       },
     ],
   ],
@@ -55,4 +69,6 @@ exports.config = {
       await browser.takeScreenshot(); // Сохраняем скриншот в случае ошибки
     }
   },
+
 };
+

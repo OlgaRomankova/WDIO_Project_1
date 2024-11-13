@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="calculator" timestamp="2024-11-13T20:50:08" time="11.455" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="calculator"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.windows"/>
+      <property name="file" value="file:///D:/Projects/WebdriverIO_Project_1/test/specs/Calculator.js"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.windows.calculator" name="tests calculator" time="11.454">
+      <system-out><![CDATA[
+COMMAND: POST /session/35a04a4d503831e5973d4ccb6ab76c9c/window/maximize - {}
+RESULT: {}
+COMMAND: GET /session/35a04a4d503831e5973d4ccb6ab76c9c/url - {}
+RESULT: {}
+COMMAND: POST /session/35a04a4d503831e5973d4ccb6ab76c9c/element/f.408D94CF491AD368DE685157941543BF.d.375C385A65C73829DAC5A819D6C8559C.e.38/click - {}
+RESULT: {}
+COMMAND: POST /session/35a04a4d503831e5973d4ccb6ab76c9c/element/f.408D94CF491AD368DE685157941543BF.d.375C385A65C73829DAC5A819D6C8559C.e.41/click - {}
+RESULT: {}
+COMMAND: GET /session/35a04a4d503831e5973d4ccb6ab76c9c/url - {}
+RESULT: {}
+COMMAND: GET /session/35a04a4d503831e5973d4ccb6ab76c9c/url - {}
+RESULT: {}
+COMMAND: POST /session/35a04a4d503831e5973d4ccb6ab76c9c/element/f.408D94CF491AD368DE685157941543BF.d.375C385A65C73829DAC5A819D6C8559C.e.91/click - {}
+RESULT: {}
+COMMAND: DELETE /session/35a04a4d503831e5973d4ccb6ab76c9c - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

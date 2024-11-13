@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Recorded Login Test" timestamp="2024-11-13T20:50:23" time="3.429" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Recorded Login Test"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.windows"/>
+      <property name="file" value="file:///D:/Projects/WebdriverIO_Project_1/test/specs/My%20First%20Recorded%20test2.js"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.windows.Recorded_Login_Test" name="tests Recorded Login Test" time="3.426">
+      <system-out><![CDATA[
+COMMAND: POST /session/26cfb25a044cdf31268b81f5d5a91c4b/window/maximize - {}
+RESULT: {}
+COMMAND: GET /session/26cfb25a044cdf31268b81f5d5a91c4b/url - {}
+RESULT: {}
+COMMAND: POST /session/26cfb25a044cdf31268b81f5d5a91c4b/element/f.95E8C1B18B40FA3C8B7C7E245279B88A.d.984D009CBB88C8EFDEF93EB4D86BAD3B.e.2/click - {}
+RESULT: {}
+COMMAND: POST /session/26cfb25a044cdf31268b81f5d5a91c4b/element/f.95E8C1B18B40FA3C8B7C7E245279B88A.d.984D009CBB88C8EFDEF93EB4D86BAD3B.e.2/clear - {}
+RESULT: {}
+COMMAND: POST /session/26cfb25a044cdf31268b81f5d5a91c4b/element/f.95E8C1B18B40FA3C8B7C7E245279B88A.d.984D009CBB88C8EFDEF93EB4D86BAD3B.e.2/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/26cfb25a044cdf31268b81f5d5a91c4b/element/f.95E8C1B18B40FA3C8B7C7E245279B88A.d.984D009CBB88C8EFDEF93EB4D86BAD3B.e.4/click - {}
+RESULT: {}
+COMMAND: POST /session/26cfb25a044cdf31268b81f5d5a91c4b/element/f.95E8C1B18B40FA3C8B7C7E245279B88A.d.984D009CBB88C8EFDEF93EB4D86BAD3B.e.4/clear - {}
+RESULT: {}
+COMMAND: POST /session/26cfb25a044cdf31268b81f5d5a91c4b/element/f.95E8C1B18B40FA3C8B7C7E245279B88A.d.984D009CBB88C8EFDEF93EB4D86BAD3B.e.4/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/26cfb25a044cdf31268b81f5d5a91c4b/element/f.95E8C1B18B40FA3C8B7C7E245279B88A.d.984D009CBB88C8EFDEF93EB4D86BAD3B.e.5/click - {}
+RESULT: {}
+COMMAND: GET /session/26cfb25a044cdf31268b81f5d5a91c4b/url - {}
+RESULT: {}
+COMMAND: DELETE /session/26cfb25a044cdf31268b81f5d5a91c4b - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

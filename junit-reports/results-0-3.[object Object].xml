@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Test" timestamp="2024-11-13T20:50:38" time="3.204" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Test"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.windows"/>
+      <property name="file" value="file:///D:/Projects/WebdriverIO_Project_1/test/specs/login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.windows.Demo_Test" name="Login Test" time="3.202">
+      <system-out><![CDATA[
+COMMAND: POST /session/26e81824d997727bf1591aa514df4c0e/element/f.0D9AF4FE868E73542BD0390A2F764C7D.d.1B901380D47CAB04507C59DBB3DAA8EA.e.4/clear - {}
+RESULT: {}
+COMMAND: POST /session/26e81824d997727bf1591aa514df4c0e/element/f.0D9AF4FE868E73542BD0390A2F764C7D.d.1B901380D47CAB04507C59DBB3DAA8EA.e.4/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/26e81824d997727bf1591aa514df4c0e/element/f.0D9AF4FE868E73542BD0390A2F764C7D.d.1B901380D47CAB04507C59DBB3DAA8EA.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/26e81824d997727bf1591aa514df4c0e/element/f.0D9AF4FE868E73542BD0390A2F764C7D.d.1B901380D47CAB04507C59DBB3DAA8EA.e.6/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/26e81824d997727bf1591aa514df4c0e/element/f.0D9AF4FE868E73542BD0390A2F764C7D.d.1B901380D47CAB04507C59DBB3DAA8EA.e.7/click - {}
+RESULT: {}
+COMMAND: DELETE /session/26e81824d997727bf1591aa514df4c0e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

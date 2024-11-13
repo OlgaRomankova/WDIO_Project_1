@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2024-11-13T20:50:52" time="10.734" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.windows"/>
+      <property name="file" value="file:///D:/Projects/WebdriverIO_Project_1/test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.windows.Demo_Tests" name="My First Test" time="10.732">
+      <system-out><![CDATA[
+COMMAND: POST /session/bdbd2f630a4f80e7f8ab8bd18d8569ad/element/f.C8FED9F5927414BF28AA73AE84AE3ADB.d.A3E315F7CCA4E1AE8AE46008E853CD20.e.1/clear - {}
+RESULT: {}
+COMMAND: POST /session/bdbd2f630a4f80e7f8ab8bd18d8569ad/element/f.C8FED9F5927414BF28AA73AE84AE3ADB.d.A3E315F7CCA4E1AE8AE46008E853CD20.e.1/value - {"text":"WebdriverIO"}
+RESULT: {"text":"WebdriverIO"}
+COMMAND: POST /session/bdbd2f630a4f80e7f8ab8bd18d8569ad/element/f.C8FED9F5927414BF28AA73AE84AE3ADB.d.A3E315F7CCA4E1AE8AE46008E853CD20.e.15/click - {}
+RESULT: {}
+COMMAND: DELETE /session/bdbd2f630a4f80e7f8ab8bd18d8569ad - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

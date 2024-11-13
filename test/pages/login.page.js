@@ -1,4 +1,3 @@
-
 class LoginPage {
   get usernameTextbox() {
     return $('#username');

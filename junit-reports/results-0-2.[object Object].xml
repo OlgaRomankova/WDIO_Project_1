@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Login Test" timestamp="2024-11-13T20:50:30" time="4.184" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Login Test"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.windows"/>
+      <property name="file" value="file:///D:/Projects/WebdriverIO_Project_1/test/specs/Rewrite%20login%20test%20with%20steps.js"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.windows.Login_Test" name="should login and logout successfully" time="4.183">
+      <system-out><![CDATA[
+COMMAND: POST /session/0074e39badadfe7dc7d58dde3d1c4aad/window/rect - {"x":null,"y":null,"width":727,"height":898}
+RESULT: {"x":null,"y":null,"width":727,"height":898}
+COMMAND: GET /session/0074e39badadfe7dc7d58dde3d1c4aad/url - {}
+RESULT: {}
+COMMAND: POST /session/0074e39badadfe7dc7d58dde3d1c4aad/element/f.00ECE2110F93CB115A8A0ECD9A8A9B81.d.44CA110DA37EB0FB9CC55F30E8BED3EB.e.4/clear - {}
+RESULT: {}
+COMMAND: POST /session/0074e39badadfe7dc7d58dde3d1c4aad/element/f.00ECE2110F93CB115A8A0ECD9A8A9B81.d.44CA110DA37EB0FB9CC55F30E8BED3EB.e.4/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/0074e39badadfe7dc7d58dde3d1c4aad/element/f.00ECE2110F93CB115A8A0ECD9A8A9B81.d.44CA110DA37EB0FB9CC55F30E8BED3EB.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/0074e39badadfe7dc7d58dde3d1c4aad/element/f.00ECE2110F93CB115A8A0ECD9A8A9B81.d.44CA110DA37EB0FB9CC55F30E8BED3EB.e.6/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/0074e39badadfe7dc7d58dde3d1c4aad/element/f.00ECE2110F93CB115A8A0ECD9A8A9B81.d.44CA110DA37EB0FB9CC55F30E8BED3EB.e.7/click - {}
+RESULT: {}
+COMMAND: GET /session/0074e39badadfe7dc7d58dde3d1c4aad/url - {}
+RESULT: {}
+COMMAND: POST /session/0074e39badadfe7dc7d58dde3d1c4aad/element/f.00ECE2110F93CB115A8A0ECD9A8A9B81.d.A40247BB970FF1B7F2729918FFE954F7.e.16/click - {}
+RESULT: {}
+COMMAND: GET /session/0074e39badadfe7dc7d58dde3d1c4aad/url - {}
+RESULT: {}
+COMMAND: DELETE /session/0074e39badadfe7dc7d58dde3d1c4aad - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
