@@ -2,6 +2,7 @@ exports.config = {
   runner: 'local',
 
   specs: ['./test/specs/**/*.js'],
+  services: ['devtools'],
 
   exclude: [],
 
@@ -36,10 +37,20 @@ exports.config = {
 
   reporters: [
     'spec',
+    // [
+    //   'allure',
+    //   {
+    //     outputDir: 'allure-results',
+    //   },
+    // ],
     [
-      'allure',
+      'junit',
       {
-        outputDir: 'allure-results',
+        outputDir: 'junit-reports',
+        outputFileFormat: function(options){
+          // return `results-${new Date().getTime()}.xml`;
+          return `results-${options.cid}.${options.capabilities}.xml`;
+        },
       },
     ],
   ],
@@ -58,4 +69,6 @@ exports.config = {
       await browser.takeScreenshot(); // Сохраняем скриншот в случае ошибки
     }
   },
+
 };
+
